@@ -31,7 +31,7 @@ def fetch_daily_boxoffice(target_date: str, api_key: str):
 # 2. Secrets에서 API 키 불러오기
 if "0f9cfa80ffe30b5da502cf0b015534a3" not in st.secrets:
     st.error(
-        "🔒 API 키를 찾을 수 없습니다! Streamlit Secrets 설정에 'KOBIS_KEY'를 등록했는지 확인해 주세요."
+        "🔒 API 키를 찾을 수 없습니다! Streamlit Secrets 설정에 '0f9cfa80ffe30b5da502cf0b015534a3'를 등록했는지 확인해 주세요."
     )
     st.stop()
 
