@@ -35,7 +35,7 @@ if "KOBIS_KEY" not in st.secrets:
     )
     st.stop()
 
-api_key = st.secrets["KOBIS_KEY"]
+api_key = st.secrets["0f9cfa80ffe30b5da502cf0b015534a3"]
 
 # 3. 한국 표준시(KST) 기준 '어제' 날짜 계산하기
 # 배포 서버의 시계가 해외 기준이어도 항상 한국 시간 기준으로 어제를 구합니다.
